@@ -23,20 +23,25 @@
                     <td>@pedido.Nome</td>
                     <td>@pedido.LuzSom</td>
                     <td>@pedido.FormaPagamento</td>
-                    <td>@pedido.Status</td>
+                      <td>@if(@pedido.Status == 0)
+                        {
+                            <p>Pendente</p>
+
+                        }else if(@pedido.Status == 1)
+                        {
+                            <p>Aprovado</p>
+                        }else{
+                            <p>Reprovado</p>
+                        }
+                        
+                    </td>
                 </tr>
             }
         </tbody>
     </table>
     <br>
 
-    <h2>Legenda do Status</h2>
-    <br>
-    <p>0 = Pedido Pendente Aguarde Resposta.
-        <br>
-    1 = Pedido Aprovado Parabens!
-    <br>
-    2 = Pedido Reprovado Que Triste! </p>
+  
     
       <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 </main>
