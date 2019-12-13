@@ -1,0 +1,4 @@
+id=1;status_pedido=2;nome=Regina cruz ;email=lucasbr.santoscosta@gmail.com;cpf=520.417.228-94;rg=345335735778;data_pedido=05/05/0564 00:00:00;forma_pagamento=credito;ls=luz e som;descricao=casamento;pergunta=ajuda?;
+id=2;status_pedido=2;nome=la;email=la@gmail.com;cpf=456654;rg=5555;data_pedido=05/05/0005 00:00:00;forma_pagamento=debito;ls=luz e som;descricao=casamento;pergunta=ajuda?;
+id=3;status_pedido=1;nome=Cláudio Gomes da Costa Santos Regina cruz dos Santos;email=lucacosta@gmail.com;cpf=520.417.228-94;rg=5555;data_pedido=05/05/0005 00:00:00;forma_pagamento=credito;ls=luz e som;descricao=casamento da luisa com a maria;pergunta=ajuda?;
+id=4;status_pedido=1;nome=Cláudio Gomes da Costa Santos Regina cruz dos Santos;email=lucasbr.12@gmail.com;cpf=520.417.228-94;rg=345335735778;data_pedido=05/04/0345 00:00:00;forma_pagamento=credito;ls=som;descricao=casamento;pergunta=ajuda?;

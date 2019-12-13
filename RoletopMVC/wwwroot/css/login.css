@@ -1,0 +1,491 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    body {
+        font-family: 'Lexend Deca', sans-serif;
+    
+    }
+    
+    nav #bt-mobile-menu {
+        display: none;
+    }
+    
+    
+    
+    h2 {
+        background-color: none;
+        font-family: 'Lobster', cursive;
+        text-shadow: 
+        -1px -1px 0 #9162e4,
+        1px -1px 0 #9162e4,
+       -1px  1px 0 #9162e4,
+        1px  1px 0 #9162e4;
+        text-align: center;
+    }
+
+    h3 {
+        background-color: none;
+        font-family: 'Lobster', cursive;
+        text-shadow: 
+        -1px -1px 0 #9162e4,
+        1px -1px 0 #9162e4,
+       -1px  1px 0 #9162e4,
+        1px  1px 0 #9162e4;
+        text-align: center;
+    }
+
+
+
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        text-shadow: 
+        -1px -1px 0 #9162e4,
+        1px -1px 0 #9162e4,
+       -1px  1px 0 #9162e4,
+        1px  1px 0 #9162e4;
+        text-align: center;    
+      }
+    
+    
+    nav{
+        background-image: url(../img/nav-bak.jfif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        font-size: 1.5em;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    nav li {
+        text-decoration: none;
+        font-weight: bold;
+        padding: .65em 1.3em;
+        align-items: center;
+    }
+    
+    
+    nav ul > li >a > img {
+        width: 200px;
+    }
+    
+    
+        
+    
+    
+    
+    #banner img {
+        width: 300px;
+        margin: 20px;
+    
+    }
+    
+
+#login {
+    background-color:#B3F2F2;
+}
+
+#caixa  {
+        
+        border: 1px solid #000000;
+        border: #000000 solid .10em;
+        width: 900px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        background-color: #B3F2F2;
+        background-size: 10em;
+        background-repeat: no-repeat;       
+        border-radius: 5%; 
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+}
+
+#caixa form  {
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 px;
+}
+
+#caixa1  {
+        
+    border: 1px solid #000000;
+    border: #000000 solid .10em;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #B3F2F2;
+    background-size: 10em;
+    background-repeat: no-repeat;       
+    border-radius: 5%; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#caixa1 form  {
+border: none;
+justify-content: center;
+align-items: center;
+padding: 0 px;
+}
+
+
+
+footer {
+   background-color: #B3F2F2;
+}
+
+#br {
+    background-color: #B3F2F2;
+}
+
+#name {
+    width: 50em;
+    border: 1px solid #000000;
+    border: #000000 solid .10em;
+    border-radius: 5%; 
+}
+
+#email {
+    width: 20em;
+    border: 1px solid #000000;
+    border: #000000 solid .10em;
+    border-radius: 5%; 
+}
+
+#apr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-status-pedidos {
+    width: 30%;
+    padding-top: .5em;
+    text-align: center;
+}
+.box-status-pedidos > p {
+    font-size: 2em;
+    padding: 0.5em 0 0 0;
+}
+
+.box-status-pedidos.reprovados {
+}
+
+.box-status-pedidos.aprovados {
+}
+
+.box-status-pedidos.pendentes {
+}
+
+
+table {
+    text-align: center;
+    color: black;
+    border: 1px dashed #ff9933;
+    width: 100%;
+    padding: 5px;
+    word-break: normal;
+}
+
+table th {
+    background-color:#a70000;
+}
+
+table a {
+    text-decoration: none;
+    color: #ff9933;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+tfoot td {
+    text-align: center;
+    color: #ff9933;
+    background-color: #a70000;
+}
+
+thead > tr:first-child > th:last-child {
+    padding: 0 .5em;
+}
+
+footer {
+    background-image: linear-gradient( #9162e4,#5e35b1);
+}
+
+
+
+
+@media (max-width: 980px) {
+    
+    #banner img{
+        width:  500px;
+        height: 200px;
+    }
+
+
+
+    #caixa {
+       width:  500px;
+        height: 500px;
+    }
+
+    #caixa1 {
+        width:  500px;
+         height: 500px;
+     }
+
+     #name {
+        width: 25em;
+    }
+}
+
+@media (max-width: 1000px) {
+
+      #nav >ul >li {
+        font-size: 20px;
+
+      }
+
+      #banner img {
+        width: 200px;
+        margin: 20px;
+    }
+}
+
+@media (max-width:810px) {
+    #nav >ul >li {
+        font-size: 15px;
+    }
+
+    #prof1 {
+        width:  300px;
+         height: 400px;
+     }
+     #prof2 {
+        width:  300px;
+         height: 400px;
+     }
+
+     #prof1 img{
+        width: 200px;
+    height: 320px;
+    margin-top: -30px;
+  
+      }
+
+      #prof2 img{
+        width: 330px;
+        height:250px;
+        margin-top: 1px;
+  
+      }
+
+      #prof2 p {
+        text-align: center;
+        margin-top: -1em;
+    }
+
+    #prof1 p {
+        text-align: center;
+        margin-top: -55px;
+    }
+
+}
+
+
+
+@media (max-width: 625px) {
+    
+
+    nav #bt-mobile-menu {
+        display: block;
+    }
+
+    nav .bt-common-menu {
+        display: none;
+    }
+
+    nav .bt-common-menu.active {
+        display: block;
+    }
+
+    nav ul.mobile-mode {
+        display: flex;
+        flex-direction: column;
+    }
+    #nav {
+        position: absolute;
+        background-color: #ffc600;
+    }
+
+    #banner img {
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+    }
+
+    #prof1 {
+        width:  200px;
+         height: 300px;
+     }
+     #prof2 {
+        width:  200px;
+         height: 300px;
+     }
+}
+
+@media (max-width: 520px) {
+    #banner img{
+        width:  150px;
+        height: 150px;
+    }
+
+    #caixa {
+        width:  200px;
+         height: 200px;
+     }
+
+     #caixa1 {
+        width: 250px;
+        height: 450px;
+     }
+     #name {
+        width: 15em;
+    }
+
+     #email {
+        width: 100px;
+    }
+
+    #senha {
+        width: 50px;
+    }
+
+     #prof1 {
+        width:  200px;
+         height: 200px;
+     }
+     #prof2 {
+        width:  200px;
+         height: 200px;
+     }
+
+     #prof1 img{
+        width: 150px;
+        height:200px;
+        margin-top: -20px;
+  
+      }
+
+      #prof2 img{
+        width: 230px;
+        height:150px;
+        margin-top: 1px;
+  
+      }
+
+      #prof2 p {
+        text-align: center;
+        margin-top: -1em;
+    }
+
+    #prof1 p {
+        text-align: center;
+        margin-top: -45px;
+    }
+
+     
+    #fotos img{
+        width:5em;
+        height:5em;
+  
+      }
+  
+      #fotos2 img{
+          width:5em;
+          height:4em;
+    
+
+}
+
+@media (max-width: 400px) {
+    #caixa {
+        width: 200px;
+        height: 300px;
+    }
+
+    #caixa1 {
+        width: 200px;
+        height: 300px;
+    }
+
+
+    #fotos img{
+      width:5em;
+      height:5em;
+
+    }
+
+    #fotos2 img {
+        width:5em;
+        height:4em;
+    }
+
+    #prof1 {
+        width:  150px;
+         height: 200px;
+     }
+     #prof2 {
+        width:  150px;
+         height: 200px;
+     }
+
+     #prof1 img{
+        width: 150px;
+        height:200px;
+        margin-top: -20px;
+  
+      }
+
+      #prof2 img{
+        width: 230px;
+        height:150px;
+        margin-top: 1px;
+  
+      }
+
+      #prof2 p {
+        text-align: center;
+        margin-top: -1em;
+    }
+
+    #prof1 p {
+        text-align: center;
+        margin-top: -45px;
+    }
+  
+}
+
+}
